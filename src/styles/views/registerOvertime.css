@@ -1,0 +1,71 @@
+.register-overtime {
+  height: 100%;
+}
+
+.register-overtime-header {
+  width: 100%;
+  height: 36px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.register-overtime-header .ms-button {
+  font-size: 14px;
+  color: #ef292f;
+}
+
+.register-overtime-header .btn-delete-mutilple {
+  background: #fff;
+  border: 1px solid #ef292f;
+  font-weight: 500;
+}
+
+.register-overtime-header .btn-delete-mutilple:hover {
+  background-color: #fee8e7;
+}
+
+.register-overtime-content {
+  display: flex;
+  height: calc(100% - 52px);
+}
+
+.btn-add {
+  background-color: var(--primary);
+  height: 36px;
+  border-radius: var(--button-border-radius);
+  padding: 0 12px 0 6px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-add:hover {
+  background-color: var(--button-primary-hover-bg-color);
+}
+
+.btn-add:focus {
+  background-color: var(--button-primary-hover-bg-color);
+}
+
+.btn-filter {
+  width: 36px;
+  height: 36px;
+  background-color: #fff;
+  padding: 9px 10px 9px 10px;
+  border: 1px solid transparent;
+  border-radius: var(--button-border-radius);
+}
+
+.btn-filter:hover {
+  border: 1px solid var(--input-hover-border-color);
+  background-color: #ffede2;
+}
+
+/* .dx-dropdowneditor.dx-dropdowneditor-field-clickable{
+  border: none !important;
+  background: none !important;
+  width: 100px !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+} */
